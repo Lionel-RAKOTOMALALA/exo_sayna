@@ -1,0 +1,186 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   
+   
+}
+
+body{
+    background-image: url("background.png");/*fond d'image*/
+    font-size: 12px;/*grandeur de toout les contenu*/
+}
+/*entête*/
+header{
+    height: 47px;
+    background-color:#C55394 ;
+    position: sticky;
+}
+/*menu des listes*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:  16px;
+    text-decoration: none;
+    font-size: 10.3px; 
+}
+/*liste*/
+li{
+    display: inline-flex;
+    float: left;
+    color: white;
+   
+}
+/*effet des listes après le passage du curseur*/
+li a:hover{background-size: cover;
+    background-color: #EB43A3;/*couleur de fond*/
+    padding: 16px 16px 19px 16px;/*marge interne haut droite bas gauche*/
+    transition: .5s;/*vitesse de defilement de l effet hover*/
+    transition-delay: 0.1s;/*durée du demarrage de l effet transition*/
+}
+/*grand titre*/
+p#p{
+    margin-left: 600px;/*marge externe gauche*/
+    margin-top: 100px;/*marge externe haut*/
+    color:#C55394;
+    font-family: 'Courgette', cursive;/*police*/
+    font-size: 3vh;/*grandeeur*/
+   position: absolute;
+/*arc en ciel*/
+}
+.rainbow{ 
+    width: 430px;
+    height: 190px;
+    margin-left: 430px;
+    margin-top: 35px;
+    position: relative;
+    
+
+}
+/*logo*/
+#myunicorn{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: 'Courgette', cursive;
+    font-size: 19px;
+}
+
+h6{
+    
+    color: #C55394;
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+}
+h5{
+    
+    color: #C55394;
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+}
+/*corps du devoir ou contenu*/
+.contenu{
+    margin-left: 900px;
+    margin-right: 900px;
+    border-radius: 20px;
+    margin: 5px 200px 5px;
+    position: -10px;
+    padding: 20px;
+    margin-top: -70px;
+    margin-bottom: 200px;
+    background-color: #f8f8f8;
+    border: 0;
+    filter: drop-shadow(2px 4px 8px black);/*pour mettre des ombres sur les bordures*/
+    position: absolute;
+
+}
+.lasttitle{
+    font-size: 13px;
+    /*pied de page*/
+}
+footer{
+    height: 37px;
+    background-color: #EB43A3;
+    width: 100%;
+    clear: both;
+    position: absolute;
+    
+
+}
+.footer{
+    float: right;
+    color: #f8f8f8;
+    margin: 10px ;
+    font-size: 13px;
+}
+
+.item{
+    width: 180px;
+    height: 180px;
+    margin: 5px 5px;
+
+}
+
+iframe{
+    float: left;
+}
+
+.containt{
+   
+    padding: 20px;
+}
+img{
+    height: 200px;
+}
+.image{
+    display: inline-flex;
+}
+
+figure{
+    margin: 5px;
+    width: fit-content;
+    overflow-y: hidden;
+}
+figure:hover{
+    transform: scale(1.1);
+    border-radius: 22px;
+    padding: 5px;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    background: #333;
+    position: relative;
+    margin-top: -25px;
+    color: #fff;
+    opacity: 80%;
+    height: 23px;
+}
+input{
+    padding: 8px 8px 8px 8px;
+}
+button{
+    background: #C55394;
+    border: #C55394;
+    border-radius: 3px;/*pour arrondir la bordure*/
+    padding: 8px;/*marge interne*/
+    cursor: pointer;/*pointer en forme de main*/
+}
+.form{
+    padding-left: 630px;/*marge interne gauche*/
+    padding-top: 50px;/*marge interne haut*/
+}
+.name{/*configuration des positions noms des licornes*/
+    margin-left: 55px;/*marge externe gauche*/
+    padding-top: 5px;/*marge interne haut*/
+}
+@media only screen and (max-width: 19020px) { /*responsive design*/
+    footer{
+        width: 100%;
+        bottom: -650px;
+    }
+    
+    
+}
